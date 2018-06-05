@@ -3,7 +3,7 @@ from mysql import connector
 
 
 class MyTable(object):
-
+#byCol = {cl:i for i,(cl,type, a, b, c,d,e) in enumerate(Cursor.description
     def add(self, *args, **kwargs):
  
     #INSERT INTO dept VALUES (50, «ПРОДУКЦИЯ», «САН-ФРАНЦИСКО»);
